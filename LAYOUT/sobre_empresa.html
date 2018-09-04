@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		<link rel="stylesheet" href="css/personalizado.css">
+		<title>Otavio Baziewicz Filho</title>
+	</head>
+	<body>	
+	
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+				<div class="container">
+					<a class="navbar-brand" href="index.html">Otavio Baziewicz Filho</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item menu">
+								<a class="nav-link" href="index.html">Home </a>
+							</li>
+							<li class="nav-item menu">
+								<a class="nav-link" href="sobre_empresa.html">Sobre a Empresa</a>
+							</li>
+							<li class="nav-item menu">
+								<a class="nav-link" href="blog.html">Blog</a>
+							</li>
+							<li class="nav-item menu">
+								<a class="nav-link" href="contato.html">Contato</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<main role="main">
+
+			<div class="jumbotron sobre-empresa">
+				<div class="container">
+					<h2 class="display-4 text-center" style="margin-bottom: 50px;">Sobre a Empresa Otavio</h2>
+					<div class="row featurette">
+				    	<div class="col-md-7 order-md-2 emp-text-mod-um">
+				        	<h2 class="featurette-heading">Sobre Empresa um</h2>
+				            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+				        </div>
+				        <div class="col-md-5 order-md-1 emp-img-mod-um">
+				            <img class="featurette-image img-fluid mx-auto" src="imagens/produto.jpg" alt="sobre a empresa um">
+				        </div>
+				    </div>
+				</div>
+			</div>
+
+			<div class="jumbotron sobre-empresa">
+				<div class="container">
+					<div class="row featurette">
+          				<div class="col-md-7 emp-text-mod-dois">
+            				<h2 class="featurette-heading">Sobre Empresa dois</h2>
+           					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          				</div>
+          				<div class="col-md-5 emp-img-mod-dois">
+            				<img class="featurette-image img-fluid mx-auto" src="imagens/produto.jpg" alt="sobre a empresa dois">
+          				</div>
+        			</div>
+				</div>
+			</div>
+
+			<div class="jumbotron sobre-empresa">
+				<div class="container">
+					<div class="row featurette">
+				    	<div class="col-md-7 order-md-2 emp-text-mod-tres">
+				        	<h2 class="featurette-heading">Sobre Empresa tres</h2>
+				            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+				        </div>
+				        <div class="col-md-5 order-md-1 emp-img-mod-tres">
+				            <img class="featurette-image img-fluid mx-auto" src="imagens/produto.jpg" alt="sobre a empresa um">
+				        </div>
+				    </div>
+				</div>
+			</div>
+
+			<div class="jumbotron sobre-empresa">
+				<div class="container">
+					<div class="row featurette emp-text-mod-quatro">
+          				<div class="col-md-7">
+            				<h2 class="featurette-heading">Sobre Empresa quatro</h2>
+           					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          				</div>
+          				<div class="col-md-5 emp-img-mod-quatro">
+            				<img class="featurette-image img-fluid mx-auto" src="imagens/produto.jpg" alt="sobre a empresa dois">
+          				</div>
+        			</div>
+				</div>
+			</div>
+
+		</main>
+		
+		<footer class="footer bg-primary">
+			<div class="container text-center">
+				© copyright @worgho2
+			</div>
+		</footer>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="js/jquery-3.3.1.slim.min.js"></script>
+	    <script src="js/popper.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/scrollreveal.js"></script>
+		
+		<script>
+			ScrollReveal({ reset: true });
+			ScrollReveal().reveal('.emp-text-mod-um', { delay: 200, origin: 'right', distance: '20px'}); 
+			ScrollReveal().reveal('.emp-img-mod-um', { delay: 200, origin: 'left', distance: '20px'});
+			ScrollReveal().reveal('.emp-text-mod-dois', { delay: 200, origin: 'left', distance: '20px'}); 
+			ScrollReveal().reveal('.emp-img-mod-dois', { delay: 200, origin: 'right', distance: '20px'});
+			ScrollReveal().reveal('.emp-text-mod-tres', { delay: 200, origin: 'right', distance: '20px'}); 
+			ScrollReveal().reveal('.emp-img-mod-tres', { delay: 200, origin: 'left', distance: '20px'});
+			ScrollReveal().reveal('.emp-text-mod-quatro', { delay: 200, origin: 'left', distance: '20px'}); 
+			ScrollReveal().reveal('.emp-img-mod-quatro', { delay: 200, origin: 'right', distance: '20px'}); 
+			
+		</script>
+  </body>
+</html>
